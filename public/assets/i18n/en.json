@@ -106,6 +106,12 @@
 "FOOD_SEC": {
   "TITLE": "Wuarung",
   "DESC": "Enjoy fresh, healthy local meals, tropical fruits, and cold coconuts right on the beach."
+},
+
+"GALLERY": {
+  "TITLE": "Our Daily Vibes",
+  "SUBTITLE": "Follow us on Instagram and catch the best waves and moments at Jofan Surf School.",
+  "FOLLOW_BUTTON": "Follow on Instagram"
 }
 
 }

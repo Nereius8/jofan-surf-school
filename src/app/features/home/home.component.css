@@ -2,6 +2,11 @@
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Esto deja un "colchón" exacto arriba para que la barra fija no tape los títulos */
+}
+
 /* --- FORZADO DE MODO OSCURO PARA TAILWIND --- */
 
 /* Fondos oscuros principales */

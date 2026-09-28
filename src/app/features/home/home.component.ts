@@ -18,7 +18,32 @@ export class HomeComponent {
 
   heroImage = 'tablas.jpg';
 
+  // Variable para controlar si el menú móvil está abierto o cerrado
+  isMobileMenuOpen = false;
+
+  toggleMobileMenu(): void {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
+
+  closeMobileMenu(): void {
+    this.isMobileMenuOpen = false;
+  }
+
   navigateToRental(): void {
     this.router.navigate(['/rental']);
+  }
+
+  // Función para hacer scroll exacto a cualquier sección
+  scrollTo(sectionId: string): void {
+    // Si el menú móvil estuviera abierto al hacer click, lo cerramos
+    this.closeMobileMenu();
+    
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' 
+      });
+    }
   }
 }

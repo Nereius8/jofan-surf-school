@@ -107,6 +107,12 @@
 "FOOD_SEC": {
   "TITLE": "Wuarung",
   "DESC": "Disfruta de platos locales frescos, frutas tropicales y cocos fríos justo al salir de tu sesión de surf."
+},
+
+"GALLERY": {
+  "TITLE": "Nuestro Día a Día",
+  "SUBTITLE": "Síguenos en Instagram y descubre las mejores olas y momentos de Jofan Surf School.",
+  "FOLLOW_BUTTON": "Síguenos en Instagram"
 }
 
 }
