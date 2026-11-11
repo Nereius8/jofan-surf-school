@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jofansurfschool.com/sitemap.xml
